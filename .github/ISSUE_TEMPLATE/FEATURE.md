@@ -1,7 +1,6 @@
 ---
 name: ✨ Feature Request
 about: Suggest an idea for this project
-
 ---
 
 <!--
@@ -15,14 +14,12 @@ about: Suggest an idea for this project
   Head to StackOverflow https://stackoverflow.com.
 -->
 
-* Device Name:
-* Device Version:
-* Browser Name:
-* Browser Version:
-* NoSleep.js Version:
+- Device Name:
+- Device Version:
+- Browser Name:
+- Browser Version:
+- NoSleep.js Version:
 
 ### Feature Proposal
-
-
 
 ### Feature Use Case

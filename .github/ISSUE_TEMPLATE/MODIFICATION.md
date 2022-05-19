@@ -1,7 +1,6 @@
 ---
 name: 🔧 Modification Request
 about: Would you like something work differently? Have an alternative approach? This is the template for you.
-
 ---
 
 <!--
@@ -15,18 +14,14 @@ about: Would you like something work differently? Have an alternative approach? 
   Head to StackOverflow https://stackoverflow.com.
 -->
 
-* Device Name:
-* Device Version:
-* Browser Name:
-* Browser Version:
-* NoSleep.js Version:
+- Device Name:
+- Device Version:
+- Browser Name:
+- Browser Version:
+- NoSleep.js Version:
 
 ### Expected Behavior / Situation
 
-
-
 ### Actual Behavior / Situation
-
-
 
 ### Modification Proposal

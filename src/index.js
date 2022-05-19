@@ -39,7 +39,8 @@ class NoSleep {
       // Set up no sleep video element
       this.noSleepVideo = document.createElement("video");
 
-      var title = options != null && options.title != null ? options.title : "No Sleep";
+      var title =
+        options != null && options.title != null ? options.title : "No Sleep";
       this.noSleepVideo.setAttribute("title", title);
       this.noSleepVideo.setAttribute("playsinline", "");
 

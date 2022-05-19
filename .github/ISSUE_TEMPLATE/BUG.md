@@ -1,7 +1,6 @@
 ---
 name: 🐛 Bug Report
 about: Something went awry and you'd like to tell us about it.
-
 ---
 
 <!--
@@ -15,11 +14,11 @@ about: Something went awry and you'd like to tell us about it.
   Head to StackOverflow https://stackoverflow.com.
 -->
 
-* Device Name:
-* Device Version:
-* Browser Name:
-* Browser Version:
-* NoSleep.js Version:
+- Device Name:
+- Device Version:
+- Browser Name:
+- Browser Version:
+- NoSleep.js Version:
 
 ### Expected Behavior
 
@@ -32,7 +31,7 @@ about: Something went awry and you'd like to tell us about it.
 ### Code
 
 ```js
-  // reproducible code example, HEY YO remove this block if you don't need it
+// reproducible code example, HEY YO remove this block if you don't need it
 ```
 
 ### How Do We Reproduce?
