@@ -22,7 +22,7 @@ const nativeWakeLock = () =>
   window.navigator.userAgent.indexOf("Samsung") === -1;
 
 class NoSleep {
-  constructor() {
+  constructor(options) {
     this.enabled = false;
     if (nativeWakeLock()) {
       this._wakeLock = null;
@@ -39,7 +39,8 @@ class NoSleep {
       // Set up no sleep video element
       this.noSleepVideo = document.createElement("video");
 
-      this.noSleepVideo.setAttribute("title", "No Sleep");
+      var title = options != null && options.title != null ? options.title : "No Sleep";
+      this.noSleepVideo.setAttribute("title", title);
       this.noSleepVideo.setAttribute("playsinline", "");
 
       this._addSourceToVideo(this.noSleepVideo, "webm", webm);
