@@ -1,6 +1,6 @@
 declare namespace nosleep {
   class NoSleep {
-    constructor();
+    constructor(options?: { title: string });
 
     get isEnabled(): boolean;
     enable(): Promise<any>;
